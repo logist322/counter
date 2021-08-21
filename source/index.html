@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <title>Counter</title>
+</head>
+<body>
+  <div class="container">
+    <div class="crossroad">
+      <div class="crossroad__wrap">
+        <p class="crossroad__title">Перекресток:</p>
+        <input class="crossroad__input" type="text" id="crossroad">
+        <button class="crossroad__button" type="button" data-for="crossroad"></button>
+      </div>
+      <div class="crossroad__wrap">
+        <p class="crossroad__title">Участок:</p>
+        <input class="crossroad__input" type="text" id="direction">
+        <button class="crossroad__button" type="button" data-for="direction"></button>
+      </div>
+    </div>
+
+    <div class="table">
+      <div class="table__head">
+        <div class="table__arrow table__arrow--left"></div>
+        <div class="table__arrow table__arrow--forward"></div>
+        <div class="table__arrow table__arrow--right"></div>
+        <div class="table__arrow table__arrow--back"></div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Троллейбус</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Большой автобус</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Средний автобус</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Микроавтобус</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Легковой транспорт</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Грузовой до 2т</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Грузовой 2-6т</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Грузовой 6-12т</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Грузовой 12-20т</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Грузовой более 20т</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+
+      <div class="table__row">
+        <div class="table__title">Трамвай</div>
+        <div class="table__controls controls">
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+          <button class="controls__button" type="button">0</button>
+        </div>
+      </div>
+    </div>
+    
+    <button class="refresh" type="button">Сброс</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
